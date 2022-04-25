@@ -54,5 +54,4 @@ export type RenderContext = {
 };
 
 export type Renderer = ((context: RequestContext) => Promise<Response>);
-
 export type RenderStrategy = "stream" | "static";
